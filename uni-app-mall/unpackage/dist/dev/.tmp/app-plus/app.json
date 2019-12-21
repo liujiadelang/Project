@@ -1,0 +1,25 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/tabBar/home/homve/homve",
+    "pages/tabBar/home/home",
+    "pages/tabBar/category/category",
+    "pages/tabBar/cart/cart",
+    "pages/tabBar/user/user"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "uni-app-mall",
+  "compilerVersion": "2.4.6",
+  "usingComponents": {}
+}
