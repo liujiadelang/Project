@@ -7520,9 +7520,9 @@ module.exports = g;
 
 /***/ }),
 /* 4 */
-/*!**********************************************************!*\
-  !*** D:/Able/Study/uni-app-mall/uni-app-mall/pages.json ***!
-  \**********************************************************/
+/*!*********************************************!*\
+  !*** D:/Able/Study/uni-app-mall/pages.json ***!
+  \*********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8427,20 +8427,20 @@ module.exports = {"_from":"@dcloudio/uni-stat@^2.0.0-alpha-24420191128001","_id"
 
 /***/ }),
 /* 7 */
-/*!***************************************************************************!*\
-  !*** D:/Able/Study/uni-app-mall/uni-app-mall/pages.json?{"type":"style"} ***!
-  \***************************************************************************/
+/*!**************************************************************!*\
+  !*** D:/Able/Study/uni-app-mall/pages.json?{"type":"style"} ***!
+  \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/tabBar/home/home": { "navigationBarTitleText": "首页", "usingComponents": { "page-header": "/pages/tabBar/home/pageHeader" } }, "pages/tabBar/category/category": { "navigationBarTitleText": "商品分类", "usingComponents": { "page-header": "/pages/tabBar/home/pageHeader" } }, "pages/tabBar/cart/cart": { "navigationBarTitleText": "购物车", "usingComponents": {} }, "pages/tabBar/user/user": { "navigationBarTitleText": "个人中心", "usingComponents": {} } }, "globalStyle": { "navigationBarTextStyle": "black", "navigationBarTitleText": "uni-app", "navigationBarBackgroundColor": "#F8F8F8", "backgroundColor": "#F8F8F8" } };exports.default = _default;
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = { "pages": { "pages/tabBar/home/home": { "navigationBarTitleText": "首页", "usingComponents": { "page-header": "/pages/tabBar/home/pageHeader" } }, "pages/tabBar/category/category": { "navigationBarTitleText": "商品分类", "usingComponents": { "page-header": "/pages/tabBar/home/pageHeader" } }, "pages/tabBar/cart/cart": { "navigationBarTitleText": "购物车", "usingComponents": {} }, "pages/tabBar/user/user": { "navigationBarTitleText": "个人中心", "usingComponents": {} }, "pages/goods/goodsList": { "navigationBarTitleText": "", "enablePullDownRefresh": true, "onReachBottomDistance": 0, "usingComponents": {} } }, "globalStyle": { "navigationBarTextStyle": "black", "navigationBarTitleText": "uni-app", "navigationBarBackgroundColor": "#F8F8F8", "backgroundColor": "#F8F8F8" } };exports.default = _default;
 
 /***/ }),
 /* 8 */
-/*!**************************************************************************!*\
-  !*** D:/Able/Study/uni-app-mall/uni-app-mall/pages.json?{"type":"stat"} ***!
-  \**************************************************************************/
+/*!*************************************************************!*\
+  !*** D:/Able/Study/uni-app-mall/pages.json?{"type":"stat"} ***!
+  \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8560,9 +8560,9 @@ function normalizeComponent (
 
 /***/ }),
 /* 15 */
-/*!**************************************************************!*\
-  !*** D:/Able/Study/uni-app-mall/uni-app-mall/utils/https.js ***!
-  \**************************************************************/
+/*!*************************************************!*\
+  !*** D:/Able/Study/uni-app-mall/utils/https.js ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8583,7 +8583,7 @@ function normalizeComponent (
 
   // 发起请求 加载动画
   if (!param.hideLoading) {
-    uni.showLoading({ title: "加载中..." });
+    uni.showLoading({ title: "正在加载" });
   }
 
   // 发起网络请求
@@ -8626,9 +8626,9 @@ function normalizeComponent (
 /* 20 */,
 /* 21 */,
 /* 22 */
-/*!*******************************************************************!*\
-  !*** D:/Able/Study/uni-app-mall/uni-app-mall/utils/interfaces.js ***!
-  \*******************************************************************/
+/*!******************************************************!*\
+  !*** D:/Able/Study/uni-app-mall/utils/interfaces.js ***!
+  \******************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8639,7 +8639,9 @@ var interfaces = {
   // 获取首页数据
   getMallData: domain + "api/profiles/mall_list",
   // 获取分类数据
-  getCategory: domain + "api/profiles/category" };
+  getCategory: domain + "api/profiles/category",
+  // 获取商品列表数据
+  getGoodsList: domain + 'api/profiles/goodslist' };
 
 
 module.exports = interfaces;

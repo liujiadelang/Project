@@ -91,13 +91,13 @@
 			},
 			handleCategory(item) {
 				// 分类跳转
-				uni.showToast({
-					title: item.name,
-					icon: 'none'
-				})
-				// uni.navigateTo({
-				// 	url:"../../goods/goodsList?name="+item.name
+				// uni.showToast({
+				// 	title: item.name,
+				// 	icon: 'none'
 				// })
+				uni.navigateTo({
+					url:"../../goods/goodsList?name="+item.name
+				})
 			},
 			handlePromotion(item) {
 				uni.showToast({

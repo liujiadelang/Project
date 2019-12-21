@@ -14,7 +14,7 @@ module.exports = (param) => {
 	
 	// 发起请求 加载动画
 	if(!param.hideLoading){
-		uni.showLoading({title:"加载中..."})
+		uni.showLoading({title:"正在加载"})
 	}
 	
 	// 发起网络请求
