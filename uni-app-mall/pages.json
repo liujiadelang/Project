@@ -39,6 +39,19 @@
 				"enablePullDownRefresh":true,
 				"onReachBottomDistance":0
 			}
+		},
+		{
+			"path": "pages/goods/goods",
+			"style": {
+				"navigationBarTitleText": "商品",
+				"app-plus": { // 取消默认的状态来
+					"titleNView": false,
+					"bounce": "none"
+				},
+				"h5": { // 取消默认的状态来
+					"titleNView": false
+				}
+			}
 		}
     ],
 	"globalStyle": {

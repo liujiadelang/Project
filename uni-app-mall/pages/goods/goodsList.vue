@@ -120,7 +120,13 @@
 			onReachBottom(){
 				this.page++;
 				this.loadData();
-			}
+			},
+			handleGoods(goods){
+				// 页面跳转 商品详情
+				uni.navigateTo({
+					url:'./goods?goodsInfo='+JSON.stringify(goods)
+				})
+			},
 		}
 	}
 </script>
